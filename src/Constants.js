@@ -76,22 +76,22 @@ export const PROJECTS = [
 ];
 
 export const SKILLS = [
+  // { name: "CSS", initialRating: 4 },
+  { name: "Kubernetes", initialRating: 4 },
+  { name: "LangChain", initialRating: 4 },
   { name: "ReactJs", initialRating: 4 },
-  { name: "React-Native", initialRating: 4 },
+  { name: "AWS", initialRating: 3 },
+  // { name: "Git", initialRating: 4 },
+  // { name: "Html", initialRating: 4 },
+  { name: "Nginx", initialRating: 4 },
+  { name: "Redis", initialRating: 4 },
+  // { name: "React-Native", initialRating: 4 },
   { name: "JavaScript", initialRating: 4 },
-  { name: "Redux", initialRating: 4 },
-  { name: "Shopify/Reactjs", initialRating: 4 },
-  { name: "Nodejs", initialRating: 3 },
-  { name: "Koajs", initialRating: 3 },
-  { name: "Html", initialRating: 4 },
-  { name: "CSS", initialRating: 4 },
-  { name: "Unit-Testing(Jest)", initialRating: 3 },
-  { name: "TypeScript", initialRating: 4 },
-  { name: "Graphql", initialRating: 4 },
-  { name: "Apollo", initialRating: 4 },
-  { name: "AntD | ReactStrap | Material UI", initialRating: 4 },
-  { name: "Shopify Polaris", initialRating: 4 },
-  { name: "Git", initialRating: 4 },
+  // { name: "Shopify/Reactjs", initialRating: 4 },
+  { name: "ExpressJs", initialRating: 3 },
+  // { name: "Koajs", initialRating: 3 },
+  // { name: "Shopify Polaris", initialRating: 4 },
+  { name: "SQL & NoSQL", initialRating: 4 },
 ];
 
-export const TOOLS = ["Visual Studio Code", "Git", "Chrome DevTools", "Npm (Node Package Manager)", "Atom", "Sublime Text", "Linux", "Heroku", "Postman"]
+export const TOOLS = ["Visual Studio Code", "Git", "Npm (Node Package Manager)", "Linux", "Postman"]

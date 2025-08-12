@@ -46,7 +46,7 @@ function About() {
             </h1>
             {TOOLS.map((tool, index) => (
               <ul key={index} className="tool-name">
-                <li>{tool}</li>
+                <li style={{ fontSize: '1.2em' }}>{tool}</li>
               </ul>
             ))}
           </Col>

@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/sunil.jpg";
+import myImg from "../../Assets/shivam.png";
 import SocialMedia from "../SocialMedia";
 import TypeWriter from "./TypeWriter";
+import Footer from "../../components/Footer";
 
 function Home() {
   return (
@@ -20,14 +21,12 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Sunil Yadav</strong>
+                <strong className="main-name"> Shivam Thapliyal</strong>
               </h1>
 
               <p className="heading-description blockquote">
-                I am passionate about using Javascript and Animation Libraries
-                to create awesome user experiences. With over five years of
-                experience developing web applications using the latest
-                front-end and back-end technologies.
+                Full Stack Developer specializing in front-end development, back-end development 
+                and DevOps deployment.
               </p>
 
               <div className="heading-type">
@@ -58,7 +57,9 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <Footer />
     </section>
+    
   );
 }
 

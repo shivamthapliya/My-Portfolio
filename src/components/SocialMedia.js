@@ -11,7 +11,7 @@ function SocialMedia() {
     <ul className="home-about-social-links">
       <li className="social-icons">
         <a
-          href="https://github.com/sunilyadav8"
+          href="https://github.com/shivamthapliya"
           target="_blank"
           rel="noreferrer"
           className="icon-colour  home-social-icons"
@@ -21,7 +21,7 @@ function SocialMedia() {
       </li>
       <li className="social-icons">
         <a
-          href="https://www.linkedin.com/in/sunilkumaryadav84/"
+          href="https://www.linkedin.com/in/shivam-thapliyal-3316322a5/"
           target="_blank"
           rel="noreferrer"
           className="icon-colour  home-social-icons"
@@ -31,7 +31,7 @@ function SocialMedia() {
       </li>
       <li className="social-icons">
         <a
-          href="https://www.instagram.com/sunil.yadav84/"
+          href="https://www.instagram.com/shivamthapliyal1777/"
           target="_blank"
           rel="noreferrer"
           className="icon-colour home-social-icons"
@@ -41,7 +41,7 @@ function SocialMedia() {
       </li>
       <li className="social-icons">
         <a
-          href="mailto:sunilyadav8404@gmail.com"
+          href="mailto:shivamthapliyal1777@gmail.com"
           target="_blank"
           rel="noreferrer"
           className="icon-colour home-social-icons"

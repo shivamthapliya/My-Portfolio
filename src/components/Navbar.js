@@ -36,8 +36,8 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="http://www.logicstime.com/" target="_blank">
-          <MdDeveloperMode style={{ marginBottom: "2px" }} /> Logicstime.com
+        <Navbar.Brand >
+          <MdDeveloperMode style={{ marginBottom: "4px" }} /> Shivam Thapliyal
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

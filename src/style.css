@@ -615,7 +615,7 @@ html {
 
 .resume-section {
   position: relative !important;
-  padding-top: 110px !important;
+  padding-top: 50px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: #414141 !important;
@@ -766,6 +766,8 @@ html {
 .tool-name {
   text-align: left;
   margin-left: 10%;
+  /* font-size: 1.5em; */
+  /* font-weight: 600; */
 }
 .skill-wrapper {
   border-right: 1px solid #414141;
@@ -773,6 +775,7 @@ html {
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
+  
 }
 .download-button {
   background-color: #343e47 !important;
@@ -790,8 +793,11 @@ html {
 }
 .profile-pic {
   border-radius: 50%;
-  height: 70%;
+  /* height: 70%; */
   width: 65%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: top left;
   margin-top: 12%;
   margin-left: 25%;
 }

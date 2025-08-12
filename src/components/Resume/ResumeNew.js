@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 // import Particle from "../Particle";
-import pdf from "../../Assets/Sunil_Resume.pdf";
+import pdf from "../../Assets/shivam_resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -12,8 +12,14 @@ function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
-    setWidth(window.innerWidth);
-  }, []);
+  const handleResize = () => setWidth(window.innerWidth);
+
+  window.addEventListener("resize", handleResize);
+  handleResize(); // Set immediately on mount
+
+  return () => window.removeEventListener("resize", handleResize);
+}, []);
+
 
   return (
     <div>
