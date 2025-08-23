@@ -12,7 +12,6 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './index.css';
 
-
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -27,7 +26,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/My-Portfolio">
       {load ? (
         <Preloader load={load} />
       ) : (
