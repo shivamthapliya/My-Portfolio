@@ -1,40 +1,35 @@
-<h2 align="center">
-  Portfolio Website live demo
-  <a href="https://sunilyadavportfolio.netlify.app/" target="_blank">SunilyadavPortfolio</a>
-</h2>
-<div align="center">
-  <img width="960" alt="image" src="https://user-images.githubusercontent.com/20383021/148535829-e697023d-cf9b-4873-b04c-ab33c465d085.png">
-</div>
+# Shivam Thapliyal Portfolio
 
-## Built With
-
-My personal portfolio   <a href="https://sunilyadavportfolio.netlify.app/" target="_blank">https://sunilyadavportfolio.netlify.app/</a> and my personal blog  <a href="http://www.logicstime.com/" target="_blank">http://www.logicstime.com/</a> <br/>
-
-This project was built using these technologies.
-
-- React.js
-- CSS3
-- VsCode
+A personal portfolio website built with React.js, showcasing projects, skills, and contact information.
 
 ## Features
 
-**📖 Multi-Page Layout**
+- **Responsive Design**: Fully responsive layout using Tailwind CSS and custom styles.
+- **Project Showcase**: Highlights recent projects with descriptions, technologies used, and links.
+- **About Section**: Details about professional skills, tools, and a brief introduction.
+- **Resume Download**: View and download resume as PDF.
+- **Contact & Social Links**: Easy access to GitHub, LinkedIn, Email, and LeetCode.
+- **Preloader Animation**: Smooth loading experience.
+- **Typewriter Effect**: Animated introduction on the home page.
+- **Routing**: Client-side navigation with React Router.
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+## Tech Stack
 
-**📱 Fully Responsive**
+- **Frontend**: React.js, React Bootstrap, Tailwind CSS
+- **Icons**: React Icons
+- **PDF Viewer**: react-pdf
+- **Other Libraries**: typewriter-effect, react-rating, react-loader-spinner
 
 ## Getting Started
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+### Prerequisites
 
-## 🛠 Installation and Setup Instructions
+- Node.js (v14 or above)
+- npm
 
-1. Installation: `npm install`
+### Installation
 
-2. In the project directory, you can run: `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
-
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/shivamthapliya/portfolio.git
+   cd portfolio
