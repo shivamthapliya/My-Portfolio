@@ -5,6 +5,7 @@ import {
 } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
 
 function SocialMedia() {
   return (
@@ -31,12 +32,13 @@ function SocialMedia() {
       </li>
       <li className="social-icons">
         <a
-          href="https://www.instagram.com/shivamthapliyal1777/"
+          href="https://leetcode.com/u/zTtpecJPb8/"
           target="_blank"
           rel="noreferrer"
           className="icon-colour home-social-icons"
         >
-          <AiFillInstagram className="social-icon" />
+          <FaCode className="social-icon" />
+          {/* <AiFillInstagram className="social-icon" /> */}
         </a>
       </li>
       <li className="social-icons">

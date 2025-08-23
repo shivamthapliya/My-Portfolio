@@ -10,7 +10,7 @@ function Home() {
     <section>
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
-          <Row>
+          <Row className="">
             <Col md={6} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
@@ -25,8 +25,11 @@ function Home() {
               </h1>
 
               <p className="heading-description blockquote">
-                Full Stack Developer specializing in front-end development, back-end development 
-                and DevOps deployment.
+                Full Stack Developer specializing in front-end development, back-end development and
+                <br>
+
+                </br>
+                 DevOps deployment.
               </p>
 
               <div className="heading-type">
@@ -57,7 +60,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Footer />
+      {/* <Footer /> */}
     </section>
     
   );

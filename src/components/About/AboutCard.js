@@ -6,7 +6,7 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "center" }}>
+          <p className="opacity-0 animate-fadeIn text-xl align-center">
             Hi Everyone, I am <span className="purple">Shivam Thapliyal </span>
             from <span className="purple"> Dehradun, India.</span>
             <br />

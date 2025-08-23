@@ -18,14 +18,14 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+            <h1 style={{ fontSize: "2.1em" }}>
               <strong className="purple">About Me</strong>
             </h1>
             <Aboutcard />
           </Col>
-          <Col md={5} style={{ paddingBottom: "50px" }} className="about-img">
-            <img src={developer} alt="about" className="image-style" />
-          </Col>
+          <div className="w-full md:w-5/12 about-img pt-30">
+          <img src={developer} alt="about" className="image-style shadow-[0_0_15px_#7d7d7d,0_0_30px_#7d7d7d] animate-fadeIn rounded-xl" />
+          </div>
         </Row>
         <Row className="skill-tools-wrapper">
           <Col className="skill-wrapper">

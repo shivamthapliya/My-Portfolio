@@ -1,3 +1,4 @@
+
 html {
   --imp-text-color: #414141;
 }
@@ -344,7 +345,7 @@ html {
 
 .home-about-social {
   text-align: center !important;
-  padding-top: 25px;
+  padding-top: 58px;
   color: #414141 !important;
 }
 
@@ -413,6 +414,7 @@ html {
 /* Footer */
 /* --------- */
 .footer {
+  /* position: absolute; */
   background-color: #343e47;
   bottom: 0 !important;
 }
@@ -609,6 +611,11 @@ html {
     padding-top: 0 !important;
   }
 }
+@media (min-width: 768px) {
+  .about-img {
+    padding-top: 20px;
+  }
+}
 /* --------- */
 /* Resume */
 /* --------- */
@@ -785,6 +792,7 @@ html {
   background-color: #000000 !important;
 }
 .image-style {
+  padding-top: 20px;
   height: 85%;
   width: 90%;
 }

@@ -10,6 +10,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import './index.css';
+
 
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -32,13 +34,15 @@ function App() {
         <div className="App" id={load ? "no-scroll" : "scroll"}>
           <Navbar />
           <ScrollToTop />
+          <div className="flex-grow">
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/project" component={Projects} />
             <Route path="/about" component={About} />
             <Route path="/resume" component={Resume} />
           </Switch>
-          {/* <Footer /> */}
+          </div>
+          <Footer />
         </div>
       )}
     </Router>
