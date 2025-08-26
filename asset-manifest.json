@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.d16d1bc1.css",
-    "main.js": "/My-Portfolio/static/js/main.2bba26e1.js",
+    "main.css": "/My-Portfolio/static/css/main.5cc50acc.css",
+    "main.js": "/My-Portfolio/static/js/main.d07c63bb.js",
     "static/media/developer.jpg": "/My-Portfolio/static/media/developer.0a4893421f4eb80a395c.jpg",
     "static/media/studynotion.png": "/My-Portfolio/static/media/studynotion.dc4af9ac6fec998aa3f3.png",
     "static/media/shivam.png": "/My-Portfolio/static/media/shivam.a73e179463d2da9260d1.png",
     "static/media/shivam_resume.pdf": "/My-Portfolio/static/media/shivam_resume.64418f81a42eec2ac2c2.pdf",
     "static/media/Rag.png": "/My-Portfolio/static/media/Rag.6f1117c519c3ab5f1d47.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.d16d1bc1.css.map": "/My-Portfolio/static/css/main.d16d1bc1.css.map",
-    "main.2bba26e1.js.map": "/My-Portfolio/static/js/main.2bba26e1.js.map"
+    "main.5cc50acc.css.map": "/My-Portfolio/static/css/main.5cc50acc.css.map",
+    "main.d07c63bb.js.map": "/My-Portfolio/static/js/main.d07c63bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.d16d1bc1.css",
-    "static/js/main.2bba26e1.js"
+    "static/css/main.5cc50acc.css",
+    "static/js/main.d07c63bb.js"
   ]
 }
