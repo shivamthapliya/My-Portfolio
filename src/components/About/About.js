@@ -24,7 +24,7 @@ function About() {
             <Aboutcard />
           </Col>
           <div className="w-full md:w-5/12 about-img pt-30">
-          <img src={developer} alt="about" className="image-style shadow-[0_0_15px_#7d7d7d,0_0_30px_#7d7d7d] animate-fadeIn rounded-xl" />
+          <img src={developer} alt="about" className="image-style shadow-[0_0_15px_#7d7d7d,0_0_30px_#7d7d7d] animate-fadeIn rounded-xl sm:object-cover object-contain " />
           </div>
         </Row>
         <Row className="skill-tools-wrapper">
